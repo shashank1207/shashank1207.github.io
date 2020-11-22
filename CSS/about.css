@@ -1,0 +1,53 @@
+#top{
+    font-size: 10px;
+    background-color: white;
+    text-align: center;
+    padding-left: 50vw;
+    position: relative;
+    height: 8vh;
+}
+.int a{
+    text-decoration: none;
+}
+.int {
+    display: inline-block;
+    margin: 0px;
+    padding-left:30px;
+}
+.int h4{
+    font-family: "Times New Roman";
+    font-size: 20px;
+    color: black;
+    font-weight: 400;
+}
+#middle{
+    
+}
+#middle h1{
+    text-align: center;
+    font-family: "Adobe Ming Std";
+    font-weight: bold;
+    text-decoration: underline;
+    margin: 10px;
+}
+.about{
+    margin: auto;
+    height: 45vh;
+    margin-left: 0px;
+    width: 70vw;
+    background: #101c28;
+    display: flex;
+    flex-direction: row;
+    padding-left: 0;
+}
+.about img, p{
+    color:white;
+    margin: 10px;
+}
+.about p{
+    width: 50em;
+    padding: 10px;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 20px;
+}

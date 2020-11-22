@@ -1,0 +1,126 @@
+body{
+    text-align: center;
+    background: linear-gradient(90deg, rgba(0,104,36,1) 0%, rgba(34,181,112,1) 43%, rgba(22,231,148,1) 68%, rgba(9,121,31,1) 100%);
+}
+.maincontainer{
+    position: relative;
+    width:500px;
+    height:500px;
+    background: white;
+    display: inline-block;
+    margin: 30px;
+     border-radius: 10px;
+}
+.card{
+    position: relative;
+    width:100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+    transition-timing-function: ease-in;
+    border: 1px solid #000;
+     border-radius: 10px;
+}
+.front{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: linear-gradient(90deg, rgba(94,53,157,1) 9%, rgba(82,112,163,1) 50%, rgba(82,84,113,1) 100%);
+    text-align: center;
+     border-radius: 10px;
+}
+.back img{
+    opacity: 0.2;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.back p{
+    position: relative;
+}
+h3{
+    font-size: 30px;
+}
+p{
+    text-align: left;
+    padding: 20px;
+}
+h4{
+    color: black;
+}
+hr{
+    border-width: 2px;
+    border-color: black;
+    width: 100%;
+    border-style: inset;
+    margin: 0;
+    margin: 0px;
+    background: black;
+}
+#top{
+    font-size: 10px;
+    text-align: center;
+    padding-left: 50vw;
+    position: relative;
+    background: linear-gradient(90deg, rgba(0,104,36,1) 0%, rgba(34,181,112,1) 43%, rgba(22,231,148,1) 68%, rgba(9,121,31,1) 100%);
+    top: 0;
+}
+.int a{
+    text-decoration: none;
+}
+.int {
+    display: inline-block;
+    margin: 0px;
+    padding-left:30px;
+}
+.int h4{
+    font-family: "Times New Roman";
+    font-size: 18px;
+    color: black;
+    font-weight: 400;
+}
+.back a, a:visited{
+    text-decoration: none;
+    color: blue;
+    margin-top: 10px;
+    background-color: white;
+}
+.back a:visited{
+    background-color: red;
+}
+.front img{
+    margin: 20px;
+    margin-top: 40px;
+    width: 80%;
+    height: 70%;
+    left: 0;
+}
+.card:hover{
+    transform: rotateY(180deg);
+}
+button{
+    border-radius: 1px;
+    background-color: black;
+    color: white;
+    border: none;
+    outline: none;
+}
+button:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: white;
+    color: #333;
+    transform: rotateY(-180deg);
+    text-align: center;
+     border-radius: 10px;
+}

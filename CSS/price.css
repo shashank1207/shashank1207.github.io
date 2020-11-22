@@ -1,0 +1,39 @@
+body {
+    background: linear-gradient(90deg, rgba(94,53,157,1) 9%, rgba(82,112,163,1) 50%, rgba(82,84,113,1) 100%);
+}
+.calcu button{
+    height: 15vh;
+}
+#cal{
+    text-align: center;
+    margin: 50px;
+}
+#output{
+/*    border: 1px solid #000;*/
+    margin-top: 50px;
+    background-color: silver;
+    width: 100px;
+    height 50px;
+    margin-left: 43vw;
+}
+#top{
+    font-size: 10px;
+    text-align: center;
+    padding-left: 50vw;
+    position: relative;
+    background-color: inherit;
+}
+.int a{
+    text-decoration: none;
+}
+.int {
+    display: inline-block;
+    margin: 0px;
+    padding-left:30px;
+}
+.int h4{
+    font-family: "Times New Roman";
+    font-size: 18px;
+    color: black;
+    font-weight: 400;
+}

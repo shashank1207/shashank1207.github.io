@@ -1,0 +1,111 @@
+body{
+    text-align: center;
+    color: black;
+    background: linear-gradient(90deg, rgba(0,104,36,1) 0%, rgba(34,181,112,1) 43%, rgba(22,231,148,1) 68%, rgba(9,121,31,1) 100%);
+}
+
+#top{
+    font-size: 10px;
+    text-align: center;
+    padding-left: 50vw;
+    position: relative;
+    background: inherit;
+}
+.int{
+    display: inline-block;
+    margin: 0px;
+    padding-left:30px;
+    color: red;
+}
+
+.int a{
+    text-decoration: none;
+    background: none;
+}
+.int h4{
+    font-family: "Times New Roman";
+    font-size: 18px;
+    color: black;
+    font-weight: 400;
+    background: none;
+}
+
+h3{
+   background: rgb(131,169,233);
+background: linear-gradient(90deg, rgba(131,169,233,1) 0%, rgba(143,166,201,1) 51%, rgba(116,178,239,1) 100%);
+}
+
+#contact{
+    border: none;
+    text-align: center;
+    display: inline-block;
+    background: rgb(131,169,233);
+background: linear-gradient(90deg, rgba(131,169,233,1) 0%, rgba(143,166,201,1) 51%, rgba(116,178,239,1) 100%);
+    vertical-align: middle;
+    margin-right: 50px;
+    width: 500px;
+    height: 85vh;
+    border-radius: 20px;
+}
+#middle{
+    text-align: center;
+}
+.cont{
+    margin: 50px;
+    border: 1px solid #000;
+    background-color: skyblue;
+}
+.cont p, h4{
+    background: skyblue;
+}
+button{
+    margin: 50px;
+    width: 50px;
+    height: 50px;
+}
+#contact_us{
+    border-radius: 20px;
+    width: 500px;
+    background: rgb(220,223,230);
+background: linear-gradient(90deg, rgba(220,223,230,1) 0%, rgba(242,243,245,1) 51%, rgba(231,231,231,1) 100%);
+    padding:15px;
+    height: 85vh;
+    padding-top: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 50px;
+}
+h3{
+    font-size: 20px;
+}
+input{
+    margin: 10px;
+    width:80%;
+    border: none;
+    padding: 10px;
+    background-color: lightgray;
+    font-family: sans-serif;
+}
+input::-webkit-input-placeholder{
+    color: black;
+}
+textarea{
+    margin: 15px;
+    width: 80%;
+    height: 18%;
+    padding: 10px;
+    font-family: sans-serif;
+}
+button{
+    margin: 15px;
+    border-radius: 20%;
+    padding: 16px;
+    background: rgb(131,169,233);
+background: linear-gradient(90deg, rgba(131,169,233,1) 0%, rgba(143,166,201,1) 51%, rgba(116,178,239,1) 100%);
+    font-weight: bold;
+    width: 120px;
+}
+#contact_us h4{
+    background: rgb(220,223,230);
+background: linear-gradient(90deg, rgba(220,223,230,1) 0%, rgba(242,243,245,1) 51%, rgba(231,231,231,1) 100%);
+}

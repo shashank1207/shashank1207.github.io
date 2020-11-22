@@ -1,0 +1,145 @@
+body{
+    margin: 0;
+    position: relative;
+}
+#top{
+    font-size: 10px;
+    background-color: white;
+    text-align: center;
+    padding-left: 50vw;
+    position: relative;
+}
+.int a{
+    text-decoration: none;
+}
+.int {
+    display: inline-block;
+    margin: 0px;
+    padding-left:30px;
+}
+.int h4{
+    font-family: "Times New Roman";
+    font-size: 20px;
+    color: black;
+    font-weight: 400;
+}
+.upper{
+    position: relative;
+}
+.upper img{
+    width: 100%;
+}
+.text{
+    position: absolute;
+    top: 40%;
+    background-color: white;
+    color: black;
+    padding-left: 30px;
+}
+.button{
+    position: absolute;
+    top: 40%;
+    margin-left: 225px;
+    margin-top:92px;
+}
+.button button{
+    background-color: black;
+    color: white;
+    width: 80px;
+    height: 25px;
+    border: none;
+    text-align: center;
+}
+.text h2{
+    font-size: 40px;
+    margin: 20px;
+}
+h3{
+    font-size: 25px;
+    margin: 20px;
+}
+.triangle-right {
+    position: absolute;
+    top: 40%;
+    margin-left: 491.48px;
+	border-top: 0px solid transparent;
+	border-left: 150px solid #FFF;
+	border-bottom: 135.2px solid transparent;
+}
+.triangle{
+    position: absolute;
+    margin-left: 80px;
+	border-top: 0px solid transparent;
+	border-left: 25px solid #000;
+	border-bottom: 25px solid transparent;
+}
+.button:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+#footer{
+    background-color: black;
+    display: inline-block;
+    width: 100vw;
+    height: 18vh;
+}
+#footer h5{
+    color: white;
+    text-align: center;
+    margin:20px;
+}
+a{
+    text-decoration: none;
+}
+.card{
+    display: inline-block;
+}
+hr{
+    border-top: 2px solid #000;
+}
+.middle{
+    text-align: center;
+}
+.intern{
+    width: 20vw;
+    height: 40vh;
+    text-align: center;
+    border: 2px solid #000;
+    margin: 0 auto;
+    display: inline-block;
+    margin: 40px;
+    margin-bottom: 20px;
+    vertical-align: middle;
+    background-color: black;
+    color: white;
+}
+.intern img{
+    width: 100%;
+    height: 80%;
+}
+h4, h6{
+    margin: 10px;
+}
+.card{
+    width: 20vw;
+    height: 40vh;
+    text-align: center;
+    border: 2px solid #000;
+    margin: 0 auto;
+    display: inline-block;
+    margin: 40px;
+    margin-bottom: 20px;
+    vertical-align: middle;
+}
+.card img{
+    width: 100%;
+    height: 100%;
+}
+.card:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.card img:hover{
+    opacity: 0.3;
+    transition: 0.5s;
+}

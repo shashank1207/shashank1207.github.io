@@ -1,0 +1,318 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#header{
+    position:relative;
+    top: 0;
+    left: 0;
+    width: 100vw;
+}
+h1{
+    font-size: 30px;
+    background-color: darkseagreen;
+ }
+p{
+    font-size: 15px; 
+}
+a{
+    text-decoration: none;
+}
+p{
+    font-family: inherit;
+}
+#header{
+    font-size: 10px;
+    background: rgb(0,104,36);
+background: linear-gradient(90deg, rgba(0,104,36,1) 0%, rgba(34,181,112,1) 43%, rgba(22,231,148,1) 68%, rgba(9,121,31,1) 100%);
+    text-align: center;
+    position: relative;
+}
+.say{
+    margin-left:0 px;
+    padding: 0px;
+    height: 200px;
+    width: 200px;
+    
+}
+#navigation{
+    background: rgb(0,104,36);
+background: linear-gradient(90deg, rgba(0,104,36,1) 0%, rgba(34,181,112,1) 43%, rgba(22,231,148,1) 68%, rgba(9,121,31,1) 100%);
+    text-align: center;
+    width: 100vw;
+}
+.navi{
+    margin: 10px;
+    
+    background: linear-gradient(90deg, rgba(94,53,157,1) 9%, rgba(82,112,163,1) 50%, rgba(82,84,113,1) 100%);
+    border: 1px solid #000;
+    padding: 40px;
+    width: 300px;
+    height: 300px;
+    font-size: 25px;
+    line-height: 20px;
+    padding-top: 30px;
+    color: white;
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.navi img{
+     width:70%;
+    height: 80%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.navi h6{
+    color: black;
+    font-family: serif;
+}
+.navi:hover{
+    transform: scale(1.09);
+    transition-duration: 0.5s;
+}
+.Quote {
+    margin: 10px;
+    background: linear-gradient(90deg, rgba(94,53,157,1) 9%, rgba(82,112,163,1) 50%, rgba(82,84,113,1) 100%);
+    border: 1px solid #000;
+    padding: 40px;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    font-size: 17px;
+    line-height: 20px;
+    display: inline-block;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.Quote img{
+    width: 70%;
+    height: 70%;
+    align-content: center;
+    margin-bottom: 0px;
+}
+.Quote h3{
+    text-align: center;
+}
+.Quote p, h5{
+    color: black;
+    font-family:serif;
+    justify-content: center;
+}
+#message {
+background: linear-gradient(90deg, rgba(0,104,36,1) 0%, rgba(34,181,112,1) 43%, rgba(22,231,148,1) 68%, rgba(9,121,31,1) 100%);
+    text-align: center;
+    width: 100vw;
+}
+.About_Our_staff {
+    margin: 10px;
+    background-color: white;
+    background: linear-gradient(90deg, rgba(94,53,157,1) 9%, rgba(82,112,163,1) 50%, rgba(82,84,113,1) 100%);
+    padding: 40px;
+    width: 300px;
+    height: 300px;
+    text-align: center !important;
+    font-size: 20px;
+    line-height: 20px;
+    color: white;
+    display: inline-block;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#staff {
+   background: rgb(0,104,36);
+background: linear-gradient(90deg, rgba(0,104,36,1) 0%, rgba(34,181,112,1) 43%, rgba(22,231,148,1) 68%, rgba(9,121,31,1) 100%);
+    text-align: center;
+    width: 100vw;
+}
+.About_Our_staff img{
+    width:70%;
+    height: 70%;
+    align-content: center;
+    margin-bottom: 0px;
+}
+.About_Our_staff h3{
+    color: black;
+}
+.About_Our_staff p, h5{ 
+    color: black;
+    font-family: serif;
+    justify-content: center;
+}
+.About_Our_staff a{
+    color: black;
+}
+.About_Our_staff:hover{
+    transform:scale(1.09);
+    transition-duration: 0.5s;
+}
+#partner {
+    background: rgb(0,104,36);
+background: linear-gradient(90deg, rgba(0,104,36,1) 0%, rgba(34,181,112,1) 43%, rgba(22,231,148,1) 68%, rgba(9,121,31,1) 100%);
+    text-align: center;
+    width: 100vw;
+}
+#partner h3{
+    padding-top: 20px;
+}
+.partners{
+    margin: 10px;
+    background-color: white;
+   background: linear-gradient(90deg, rgba(94,53,157,1) 9%, rgba(82,112,163,1) 50%, rgba(82,84,113,1) 100%);
+    border: 1px solid #000;
+    padding: 40px;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 20px;
+    padding-top: 30px;
+    color: white;
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.partners img{
+    width:70%;
+    height: 70%;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    border-radius: 50%;
+}
+.partners p, h5{
+    color: black;
+    font-family:serif;
+    justify-content: center;
+}
+.partner h3{
+    font-size: 30px;
+    font-style: 
+}
+.partners:hover{
+    transform: scale(1.09);
+    transition-duration: 0.5s;
+    
+}
+#top{
+    padding-left: 50vw;
+    
+}
+.int {
+    display: inline-block;
+    margin: 20px;
+    padding:3px;
+    
+}
+.int h4{
+    font-family: "Times New Roman";
+    font-size: 20px;
+    color: black;
+    font-weight: 400;
+}
+.walter img{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    height: 500px;
+    width: 650px;
+}
+#footer{
+    background-color: black;
+    display: inline-block;
+    width: 100vw;
+    height: 18vh;
+}
+#footer h5{
+    color: white;
+    text-align: center;
+    margin:20px;
+}
+.walter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.walter p{
+    font-size: 100px;
+    font-weight: bold
+}
+.walter p:nth-child(2){
+    padding-left: 0px;
+    color: white;
+}
+.walter p:first-child{
+    margin-left: 250px;
+}
+.name p{
+    display: inline-block;
+    padding-left: 0px;
+}
+.name p:nth-child(2){
+    padding-bottom: 50px;
+}
+.name p:first-child{
+    font-family: "Heart Breaking Bad";
+    padding-left: 250px;
+    color: white;
+}
+.main-container{
+    width: 100vw;
+    height: 2480px;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.pop{
+    position: fixed;
+    top: 60px;
+    width: 400px;
+    height: 600px;
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    background-color: white;
+}
+.pop h1{
+    background: #294664;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    color: white;
+}
+.descrip{
+    text-align: left;
+    margin: 5px;
+    padding: 5px;
+}
+.descrip h4,p{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    margin-bottom: 3px;
+}
+
+.pop img{
+    width: 140px;
+    height: 140px;
+    margin: 5px;
+    border-radius: 50%;
+}
+.descrip h3{
+    text-align: center;
+}
+.close{
+    position: absolute;
+    top: 0;
+    right: 10px;
+    color: white;
+    font-size: 40px;
+    transform: rotate(45deg);
+    cursor: pointer;
+    padding-right: 10px;
+}
