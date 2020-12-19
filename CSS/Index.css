@@ -258,8 +258,8 @@ background: linear-gradient(90deg, rgba(0,104,36,1) 0%, rgba(34,181,112,1) 43%, 
     color: white;
 }
 .main-container{
-    width: auto;
-    height: auto;
+    width: 100vw;
+    height: 150em;
     overflow: auto;
     background-color: rgba(0, 0, 0, 0.7);
     position: absolute;
