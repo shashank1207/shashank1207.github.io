@@ -4,8 +4,6 @@
     <head>
         <link rel="icon" type="image/png" href="IMG/favicon.png">
         <meta charset="utf-8" /> 
-        <meta name="keywords" content="Meth, Heisenberg, Blue crystal, Alberqurque, Methamphetamine, New Mexico, ">
-        <meta name="description" content="We make the world's best crystal. Yeah, you guessed it right, we are heisenberg's blue meth.">
         <title> Heisenberg's Blue Meth</title>
         <link rel="stylesheet" type="text/css" href="CSS/Index.css">
     </head>
