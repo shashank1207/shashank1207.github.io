@@ -6,6 +6,15 @@
         <meta charset="utf-8" /> 
         <title> Heisenberg's Blue Meth</title>
         <link rel="stylesheet" type="text/css" href="CSS/Index.css">
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-SXP4NDRZ4B"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-SXP4NDRZ4B');
+</script>
     </head>
     <body>
         <div id ="header">
